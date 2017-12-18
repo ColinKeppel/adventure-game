@@ -1,15 +1,58 @@
 * {
-	padding: 0px;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-	background-color: silver;
-	font-family: sans-serif;
+	background-image: url(../img/start.png);
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
-#level_title {
-	font-size: 18px;
-	color: black;		
-	font-weight: bold;
+main {
+	display: flex;
+	flex-direction: column;
+	background-color: #111217a6;
+	align-items: center;
+	padding: 25px 0
+}
+
+#backpack {
+	width: 500px;
+    height: 500px;
+    border-style: solid;
+}
+
+#rugzak {
+
+}
+
+.buttons {
+	margin: 2px 0px;
+	display: block;
+	min-width: 15vw;
+	max-width: 15vw;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 5px;
+}
+
+button#restart {
+	display: none;
+}
+
+div#backpack {
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	display: none;
+	border-style: solid;
+	border-color: blue;
+	border-radius: 15%;
+	padding: 50px;
+	box-sizing: border-box;
+	background-color: white;
 }
